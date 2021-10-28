@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Primera web LGMSG</title>
+</head>
+
+<body>
+    <div id="containers">
+        <header>
+            <img src="./img/header.jfif" alt="mec">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul id="menuprincipal">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./Parrafos.html">
+                        <li>Parrafos</li>
+                    </a>
+                    <a href="./enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="./tablas.html">
+                        <li>tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="./formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="./multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html"><li>form html5</li></a>
+                </ul>
+            </nav>
+
+            <div id="formularios">
+                <h2 id="form-title">
+                    <p>La etiqueta básica de formularios es <span id="parrafo">Form</span></p>
+                </h2>
+                <h2>formulario basico</h2>
+                <form action="" method="get" id="form-basico">
+                    <h2></h2>
+                    <fieldset id="form-basico">
+                        <legend>Login</legend>
+                        <p>
+                            <input type="text" name="User" placeholder="User" value=""><br>
+                        </p>
+                        <p>
+                            <input type="Password" name="Password" placeholder="Password" value=""><br>
+                            <p>
+                                <textarea name="Comment" cols="30" rows="10" placeholder="Comment"></textarea><br>
+                                <p>
+                                    <input type="submit" value="Enviar-basico">
+                                </p>
+                </form>
+            </fieldset>
+            <h2>formulario variado</h2>
+                <form action="" method="get" id="form-variado">
+                    <fieldset>
+                        <p>
+                        <select name="select">
+                            <option value="Toledo">Toledo</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Albacete">Albacete</option>
+                        </select>
+                        </p>
+                        <p>
+                        <select name="select" multiple size="5">
+                            <option value="Toledo">Azul</option>
+                            <option value="Madrid">Verde</option>
+                            <option value="Cuenca">Amarillo</option>
+                            <option value="Albacete">Rojo</option>
+                        </select>
+                        </p>
+                        <p>
+                        <fieldset>
+                            <legend>Aficiones</legend>
+                            <input type="checkbox" name="Cine">Cine <br>
+                            <input type="checkbox" name="Deporte">Deporte <br>
+                            <input type="checkbox" name="Juerga">Juerga <br>
+                            <input type="checkbox" name="Viaje">Viaje <br>
+                        </fieldset>
+                        </p>
+                        <p>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <input type="radio" name="sexo">Hombre <br>
+                            <input type="radio" name="sexo">Mujer <br>
+                            <input type="radio" name="sexo">Otros <br>
+                        </fieldset>
+                        </p>
+                    </fieldset>
+                    <p>
+                    <input type="submit" value="Enviar form-variado">
+                    <input type="reset" value="Resetear formulario">
+                    </p>
+                </form>
+            </div>
+
+            <div class="cb"></div>
+        </div>
+        <footer>
+            <p>Developed by Juan Abad S1DAM &copy 2021</p>
+        </footer>
+    </div>
+</body>
+
+</html>

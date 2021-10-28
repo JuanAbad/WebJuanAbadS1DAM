@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Primera web LGMSG</title>
+</head>
+
+<body>
+    <div id="containers">
+        <header>
+            <img src="./img/header.jfif" alt="mec">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul id="menuprincipal">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./Parrafos.html">
+                        <li>Parrafos</li>
+                    </a>
+                    <a href="./enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="./tablas.html">
+                        <li>tablas</li>
+                    </a>
+                    <a href="./formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="./multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html"><li>form html5</li></a>
+                </ul>
+            </nav>
+
+            <div id="tabla">
+                <h1>Explicación de las tablas</h1>
+                <p>Las etiquetas más importantes para diseñar una tabla son <span id="parrafo">table</span>,<span
+                        id="parrafo">tr</span>,<span id="parrafo">th</span>y <span id="parrafo">td</span></p>
+                <h2 id="tabladefault">Tabla default</h2>
+                <table id="tablas" border="1">
+                    <thead>
+                        <tr>
+                            <th>Archivo</th>
+                            <td>Abrir</td>
+                            <td>Cerrar</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Editar</th>
+                            <td>Copiar</td>
+                            <td>Pegar</td>
+                        </tr>
+                        <tr>
+                            <th>Ayuda</th>
+                            <td>A cerca de...</td>
+                            <td>FAQ</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Tabla con combinaciones de celdas</h2>
+                <table id="tablas" border="1">
+                    <thead>
+                        <tr>
+                            <th>Archivo</th>
+                            <td>Abrir</td>
+                            <td>Cerrar</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="2">Editar</th>
+                            <td colspan="2">Copiar</td>
+
+                        </tr>
+                        <tr>
+                            <td>A cerca de...</td>
+                            <td>FAQ</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Tabla filas impares y pares</h2>
+                <table id="tablas2" border="1">
+                    <thead>
+                        <tr>
+                            <th>Archivo</th>
+                            <th>Abrir</th>
+                            <th>Cerrar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Editar</td>
+                            <td>Copiar</td>
+                            <td>Pegar</td>
+
+                        </tr>
+                        <tr>
+                            <td>Ayuda</td>
+                            <td>A cerca de...</td>
+                            <td>FAQ</td>
+                        </tr>
+                        <tr>
+                            <td>Editar</td>
+                            <td>Copiar</td>
+                            <td>Pegar</td>
+
+                        </tr>
+                        <tr>
+                            <td>Ayuda</td>
+                            <td>A cerca de...</td>
+                            <td>FAQ</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Horario Escolar</h2>
+                <table id="horario">
+                    <thead>
+                        <tr>
+                            <th id="s1dam" colspan="6" class="S1DAM"> <em>S1DAM</em></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="cabecera">
+                            <th>/~\</th>
+                            <td>Lunes</td>
+                            <td>Martes</td>
+                            <td>Miercoles</td>
+                            <td>Jueves</td>
+                            <td>Viernes</td>
+                        </tr>
+                        <tr>
+                            <th>8:15 <br>9:10</th>
+                            <td rowspan="2" id="lmsg">LMSG-2805299 <br> Puli, Mo, FrJo <br>(1 B-001) <br> LMSG-2804903
+                            </td>
+                            <td rowspan="2" id="prog">PROG-2805296 <br>Mart Ca, JoJa <br>(1 B-001) <br> PROG-2805296
+                            </td>
+                            <td id="ing">ING-2805297 <br>Corr. Pi, JoMa <br> (1 B-001) <br> ING-2804902 </td>
+                            <td rowspan="2" id="prog">PROG <br>28052906 <br>Mart Ca, JoJa <br>(1 B-001) <br>PROG-
+                                <br>2804905</td>
+                            <td id="ende">ENDE-2805301 <br>Polo Or, Ed <br>(1 B-001) <br>ENDE-2806301</td>
+                        </tr>
+                        <tr>
+
+                            <th>9:10 <br>10:05</th>
+                            <td id="ende">ENDE <br> 2805301 <br>Polo Or, Ed <br>(1 B-001) <br>ENDE-2806301</td>
+                            <td id="fol">FOL - 2805295 <br>Marin Ca, RoMa <br>(1 B-001) <br>FOL-2805295</td>
+
+                        </tr>
+                        <tr>
+                            <th>10:05 <br>11:00</th>
+                            <td id="ing">ING-2805297 <br>Corr. Pi, JoMa <br>(1 B-001) <br>ING-2805297</td>
+                            <td id="sisi">SISI-2805298 <br> Mart Ru, To <br>(1 B-001) <br>SISI- 2805336</td>
+                            <td id="sisi">SISI-2805298 <br> Mart Ru, To <br>(1 B-001) <br>SISI- 2805336</td>
+                            <td id="lmsg">LMSG-2805299 <br> Puli, Mo, FrJo <br>(1 B-001) <br> LMSG-2804903</td>
+                            <td id="bdd">BDD -2805300 <br> Bem. Be, Cr <br>(1 B-001) <br>BDD-2804900</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" id="recreo">recreo</td>
+                        </tr>
+                        <tr>
+                            <th>11:30 <br>12:25</th>
+                            <td id="fol">FOL-2805295 <br>Marin Ca, RoMa <br>(1 B-001) <br>FOL-2805295</td>
+                            <td id="sisi">SISI-2805298 <br> Mart Ru, To <br>(1 B-001) <br>SISI- 2805336</td>
+                            <td id="sisi">SISI-2805298 <br> Mart Ru, To <br>(1 B-001) <br>SISI- 2805336</td>
+                            <td id="lmsg">LMSG-2805299 <br> Puli, Mo, FrJo <br>(1 B-001) <br> LMSG-2804903</td>
+                            <td id="bdd">BDD -2805300 <br> Bem. Be, Cr <br>(1 B-001) <br>BDD-2804900</td>
+                        </tr>
+                        <tr>
+                            <th>12:15 <br>13:20</th>
+                            <td rowspan="2" id="prog">PROG <br>28052906 <br>Mart Ca, JoJa <br>(1 B-001) <br>PROG-
+                                <br>2804905</td>
+                                <td id="ende">ENDE <br> 2805301 <br>Polo Or, Ed <br>(1 B-001) <br>ENDE-2806301</td>
+                                <td id="bdd" rowspan="2">BDD -2805300 <br> Bem. Be, Cr <br>(1 B-001) <br>BDD-2804900</td>
+                                <td id="bdd" rowspan="2">BDD -2805300 <br> Bem. Be, Cr <br>(1 B-001) <br>BDD-2804900</td>
+                                <td id="sisi" rowspan="2">SISI-2805298 <br> Mart Ru, To <br>(1 B-001) <br>SISI- 2805336</td>
+                        </tr>
+                        <tr>
+                            <th>13:20 <br>14:15</th>
+                            <td id="fol">FOL - 2805295 <br>Marin Ca, RoMa <br>(1 B-001) <br>FOL-2805295</td>
+                        </tr>
